@@ -23,7 +23,7 @@ public class RestLBI {
 	
 	@EJB 
 	private LbiLocal lb;
-	
+	//test
 	@GET
 	@Path("/sayHello")
 	public String sayHello() {
